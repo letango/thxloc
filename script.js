@@ -34,7 +34,7 @@ async function initializeMapPlannersWithNewFeatures() {
 
     // points to the states layer in a service storing U.S. census data
     const csvLayer = new CSVLayer({
-      url: "https://raw.githubusercontent.com/letango/geodata/main/finalxycoordinates1.csv",
+      url: "https://raw.githubusercontent.com/letango/thxloc/main/finalxycoordinates1.csv",
       copyright: "data",
       renderer: {
         type: "simple",
